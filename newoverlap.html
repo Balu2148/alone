@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlapping text on image</title>
+</head>
+<style>
+    .balu{
+        position: absolute;
+        top: 0;
+    left: 10px;
+
+    }
+    .balu img{
+        display: block;
+    }
+    .balu2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 20px;
+    }
+</style>
+<body>
+    <div class="balu">
+        <img src="balu2.jpg" alt="hello balu">
+        <div class="balu2">
+            <p>this is trial to test that is their any bug in this code</p>
+        </div>
+    </div>
+</body>
+</html>

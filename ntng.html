@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: gold;
+    }
+    .mrng{
+        height: 100px;
+        width: 100px;
+       background-color:blue;
+       position: relative;
+       animation: animate 4s infinite;
+       border-radius: 50%;
+       
+    }
+    @keyframes animate{
+        0%{
+            top:0px;
+            left: 0px;
+        }
+        25%{
+            top: 0px;
+            left: 90%;
+        }
+        50%{
+            top: 600px;
+            left: 90%;
+        }
+        75%{
+            top: 600px;
+            left: 0px;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+        }
+
+    }
+</style>
+<body>
+    <div class="mrng"></div>
+</body>
+</html>
